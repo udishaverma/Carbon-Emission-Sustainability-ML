@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+
+# Large/local datasets
+data/raw/*.csv
+data/processed/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
