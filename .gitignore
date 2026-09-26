@@ -13,10 +13,6 @@ env/
 # Environment files
 .env
 
-# Large/local datasets
-data/raw/*.csv
-data/processed/*.csv
-
 # OS files
 .DS_Store
 Thumbs.db

@@ -98,6 +98,7 @@ Data Collection
 
 ```text
 notebooks/       ML and data-analysis notebooks
-data/            Dataset documentation and local data instructions
+data/            Datasets
 visualizations/  Generated analytical visualizations
 docs/            Project documentation# Carbon-Emission-Sustainability-ML
+outputs/         Generated files
