@@ -97,11 +97,11 @@ Data Collection
 ## Repository Structure
 
 ```text
-notebooks/       ML and data-analysis notebooks
-data/            Datasets
-visualizations/  Generated analytical visualizations
+data/            Source and processed datasets
 docs/            Project documentation
-outputs/         Generated files
+notebooks/       ML and data-analysis notebooks
+outputs/         Generated evaluation files
+visualizations/  Generated charts
 ```
 
 ## Model Comparison
