@@ -102,3 +102,73 @@ data/            Datasets
 visualizations/  Generated analytical visualizations
 docs/            Project documentation# Carbon-Emission-Sustainability-ML
 outputs/         Generated files
+
+
+## Model Comparison
+
+Three regression algorithms were implemented and
+evaluated:
+
+1. Linear Regression
+2. Random Forest Regressor
+3. Gradient Boosting Regressor
+
+Model selection was based primarily on validation RMSE.
+Gradient Boosting was selected because it achieved the
+lowest validation RMSE and highest validation R².
+Random Forest achieved the lowest validation MAE.
+
+The selected model was subsequently evaluated on
+the held-out test set. Detailed evaluation results
+are available in outputs/model_evaluation.csv.
+
+The primary regression experiment uses a random
+train-validation-test split. Its test results should
+not be interpreted as evidence of future-year
+generalization. Chronological evaluation is handled
+separately in the forecasting notebook.
+
+
+## Reproducibility
+
+### Requirements
+
+Python and the libraries listed in requirements.txt.
+
+### Setup
+
+1. Clone the repository.
+2. Create and activate a virtual environment.
+3. Install the required dependencies.
+4. Ensure the source datasets are available in data/raw/.
+5. Run the notebooks in numerical order.
+
+### Notebook sequence
+
+01. Data Understanding
+02. Data Cleaning
+03. Feature Engineering
+04. Exploratory Data Analysis
+05. Regression Modeling
+06. Time-Series Forecasting
+07. Model Evaluation
+08. Renewable Energy Impact Analysis
+09. Visualizations
+
+
+## Data Sources
+
+CO₂ Dataset:
+https://ourworldindata.org/co2-and-greenhouse-gas-emissions
+
+Energy Dataset:
+https://catalog.ourworldindata.org/energy_data/owid_energy/
+
+The original datasets and accompanying codebooks
+are organized under data/raw/.
+
+Processed datasets are stored under data/processed/.
+
+Dataset retrieval dates, source versions, and
+relevant attribution information should be
+recorded for reproducibility.
