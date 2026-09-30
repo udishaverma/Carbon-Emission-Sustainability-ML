@@ -102,7 +102,7 @@ data/            Datasets
 visualizations/  Generated analytical visualizations
 docs/            Project documentation
 outputs/         Generated files
-
+```
 
 ## Model Comparison
 
