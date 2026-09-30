@@ -61,6 +61,12 @@ Three country-specific lag variables are created:
 - CO₂ lag 2
 - CO₂ lag 3
 
+The 2023–2027 projections carry forward the latest
+observed non-lag predictors while updating the year
+and CO₂ lag features recursively. They are conditional
+projections, not forecasts of future economic or
+energy variables.
+
 The forecasting experiment uses chronological training, validation and testing rather than a random split.
 
 Recorded test performance:
