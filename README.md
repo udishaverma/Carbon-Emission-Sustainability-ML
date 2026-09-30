@@ -45,7 +45,9 @@ The primary regression experiment compares:
 2. Random Forest Regressor
 3. Gradient Boosting Regressor
 
-Gradient Boosting produced the strongest recorded test performance:
+
+Gradient Boosting achieved the lowest test RMSE and highest test R², while Random Forest achieved the lowest test MAE. 
+Gradient Boosting was selected using validation RMSE, and the test results are reported as a final comparative evaluation.
 
 - MAE: 22.5743 Mt
 - RMSE: 68.9022 Mt
