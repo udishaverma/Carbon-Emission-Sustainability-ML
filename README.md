@@ -2,7 +2,7 @@
 
 ## Overview
 
-P_132 is a Python-based machine learning and sustainability analysis project that studies annual country-level CO₂ emissions using socioeconomic and energy-system indicators.
+This project is a Python-based machine learning and sustainability analysis project that studies annual country-level CO₂ emissions using socioeconomic and energy-system indicators.
 
 The project integrates Our World in Data (OWID) CO₂ and Energy datasets using country and year, performs systematic data-quality and coverage screening, engineers predictive features, develops regression models, evaluates model performance, performs chronological time-series forecasting, and investigates statistical relationships between renewable-energy indicators and CO₂ emissions.
 
@@ -100,7 +100,7 @@ Data Collection
 notebooks/       ML and data-analysis notebooks
 data/            Datasets
 visualizations/  Generated analytical visualizations
-docs/            Project documentation# Carbon-Emission-Sustainability-ML
+docs/            Project documentation
 outputs/         Generated files
 
 
