@@ -109,6 +109,11 @@ data/            Source and processed datasets
 docs/            Project documentation
 notebooks/       ML and data-analysis notebooks
 outputs/         Generated evaluation files
+    yuvaintern_evaluation/
+        Grouped CV results
+        Rolling-origin results
+        Persistence comparisons
+        Evaluation plots
 visualizations/  Generated charts
 ```
 
@@ -162,6 +167,9 @@ Python and the libraries listed in requirements.txt.
 07. Model Evaluation
 08. Renewable Energy Impact Analysis
 09. Visualizations
+10. YuvaIntern Experimental Evaluation
+    (Supplementary country-grouped CV,
+     rolling-origin and persistence analysis)
 
 
 ## Data Sources
