@@ -191,8 +191,8 @@ Carbon-Emission-Sustainability-ML/
 |
 |-- docs/
 |   |-- architecture/
-|       |-- system_architecture.drawio
-|       |-- implementation_workflow.drawio
+|       |-- system_architecture.png
+|       |-- implementation_workflow.png
 |   |-- YuvaIntern_Task1_Project_Plan.docx
 |   |-- YuvaIntern_Task2_Algorithm_Exploration.docx
 |   |-- YuvaIntern_Task3_Experimental_Design_and_Evaluation_Metric_Formulation.docx
