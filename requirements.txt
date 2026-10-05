@@ -6,3 +6,4 @@ scikit-learn>=1.5
 statsmodels>=0.14
 jupyter
 notebook
+ipykernel

@@ -190,9 +190,13 @@ Carbon-Emission-Sustainability-ML/
 |       |-- modeling_data.csv
 |
 |-- docs/
+|   |-- architecture/
+|       |-- system_architecture.drawio
+|       |-- implementation_workflow.drawio
 |   |-- YuvaIntern_Task1_Project_Plan.docx
 |   |-- YuvaIntern_Task2_Algorithm_Exploration.docx
 |   |-- YuvaIntern_Task3_Experimental_Design_and_Evaluation_Metric_Formulation.docx
+|   |-- YuvaIntern_Task4_Implementation_Strategy_and_Code_Architecture.docx
 |
 |-- notebooks/
 |   |-- 01_data_understanding.ipynb
@@ -226,6 +230,18 @@ Carbon-Emission-Sustainability-ML/
 |       |-- final_test_baseline_comparison.csv
 |       |-- final_test_baseline_yearly.csv
 |
+|-- src/
+|   |-- __init__.py
+|   |-- config.py
+|   |-- data.py
+|   |-- features.py
+|   |-- models.py
+|   |-- forecasting.py
+|   |-- evaluation.py
+|   |-- visualization.py
+|   |-- pipeline.py
+|   |-- main.py
+|
 |-- visualizations/
 |   |-- exploratory/
 |   |-- forecasting/
@@ -255,6 +271,28 @@ Notebook 10 and its output directory are supplementary YuvaIntern evaluation mat
 | 10 | YuvaIntern Experimental Evaluation |
 
 Notebook 10 performs country-grouped cross-validation, expanding-window rolling-origin evaluation, persistence-baseline comparison and additional error analysis. Its outputs are stored separately under `outputs/yuvaintern_evaluation/` to avoid overwriting the core project results.
+
+## Modular Architecture
+
+The `src/` directory contains the planned modular Python architecture
+for migrating reusable functionality from the analytical notebooks
+into maintainable components.
+
+| Module | Responsibility |
+|---|---|
+| `config.py` | Project paths, feature definitions and configuration |
+| `data.py` | Data loading and validation |
+| `features.py` | Feature selection and CO₂ lag generation |
+| `models.py` | Regression model definitions |
+| `forecasting.py` | Forecasting model definitions and forecasting logic |
+| `evaluation.py` | Model metrics and evaluation procedures |
+| `visualization.py` | Plot generation and saving |
+| `pipeline.py` | High-level workflow orchestration |
+| `main.py` | Main execution entry point |
+
+The current `src/` implementation establishes the architecture and
+interfaces. The existing notebooks remain the primary implementation
+of the completed analytical workflows.
 
 ## Reproducibility
 

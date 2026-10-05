@@ -2,24 +2,26 @@
 High-level project pipeline orchestration.
 """
 
-from pathlib import Path
-import pandas as pd
+from src.data import load_csv
+from src.config import MODELING_DATA_PATH
 
 
-def load_modeling_data(
-    path: Path
-) -> pd.DataFrame:
-    """Load the processed modeling dataset."""
-    return pd.read_csv(path)
-
-
-def run_pipeline() -> pd.DataFrame:
+def run_pipeline() -> None:
     """
-    Entry point for the high-level project workflow.
+    Coordinate the high-level project workflow.
 
-    Detailed orchestration can be implemented when the
-    notebook workflow is migrated into reusable modules.
+    Detailed orchestration will be implemented when the
+    existing notebook workflow is migrated into reusable modules.
     """
+
+    # Planned workflow:
+    # 1. Load data
+    # 2. Validate data
+    # 3. Prepare features
+    # 4. Train models
+    # 5. Evaluate models
+    # 6. Generate outputs
+
     raise NotImplementedError(
         "Pipeline orchestration is planned for the modular implementation phase."
     )
